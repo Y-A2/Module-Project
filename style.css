@@ -1,0 +1,44 @@
+img {
+width: 200px
+}
+table {
+
+border-collapse: collapse;
+width: 100%;
+margin: 0px auto;
+}
+td {
+    border: 2px solid black;
+    text-align: center;
+    font-size: 25px;
+}
+
+html {
+background: url(img/563508-Mcdonalds-Logo.jpg) no-repeat center fixed;
+}
+
+body {
+    background-color: azure;
+    background-color: rgba(240, 240, 255, 1);
+    width: 800px;
+    margin: 25px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;  
+    text-align: center;
+}
+
+#height {
+    height: 50px;
+}
+h1 {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bolder;
+font-size: 48px;   
+}
+
+.text {
+font-size: 30px;
+font-weight: bold;
+}
+
