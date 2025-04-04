@@ -1,31 +1,141 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
-</head>
-<body>
-    <h1>Trip Cost Estimator</h1>
-    <hr>
-    <br>
-<span class="style">Destination:</span> <input type="text" id="a"> *text input*
-<br>
-<br>
-<span class="style">Distance:</span> <input type="text" id="b"> <span id="caps">kms</span> *number input*
-<br>
-<br>
-<span class="style">Fuel cost per unit:</span> <input type="text" id="c"> *number input*
-<br>
-<br>
-<span class="style">Expected accommodation cost</span>: <input type="text" id="d"> *number input*
-<br>
-<br>
-<span class="style">Miscellaneous expenses:</span> <input type="text" id="e"> *number input*
-<br>
-<br>
-<button id="button">Calculate</button>
-<hr>
-<p id="p">Your trip to <span id="x">[Destination]</span> will cost approximately $<span id="y">[Total Cost]</span>!</p>
-</body>
-</html>
+ table {
+     width: 100%;
+     border-collapse: collapse;
+     margin: 0px auto;
+     }
+     td {
+         border: 4px solid whitesmoke;
+         text-align: center;
+         font-size:50px;
+         font-weight: bold;
+         font-family: 'Times New Roman', Times, serif;   
+     }
+     
+     html {
+     background: url(img/mcdonalds-background-lklrppjq458ohbfj.jpg) no-repeat center fixed;
+     background-size: cover;
+     }
+     
+     body {
+         background-color: rgba(255, 255, 255, 1);
+         background-color: rgb(10, 10, 10); 
+         width: 800px;
+         margin: 25px auto;
+         padding-left: 50px;
+         padding-right: 50px;
+         padding-top: 25px;  
+         padding-bottom: 50px;
+         text-align: center;
+         border-radius: 20px;
+         border-top: 7px solid #DA291C;
+         border-bottom: 7px solid #DA291C;
+         border-left: 7px solid #FFC72C;
+         border-right: 7px solid #FFC72C;
+     }
+     h1 { 
+     color: #FFC72C;
+     border: 7px solid white;
+     border-radius: 40px;
+     background-color: rgb(41, 38, 38);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight: bolder;
+     font-size: 90px; 
+     } 
+     #height {
+         height: 50px;
+     }
+     
+     
+     .text {
+     font-size: 75px;
+     font-weight: bolder;
+     color: #DA291C;
+     font-variant: small-caps;
+     
+     }
+     
+     .text2 {
+         font-size: 75px;
+         font-weight: bolder;
+         color: #FFC72C;
+         font-variant: small-caps;
+         }
+     
+     .yellow{
+         color: #DA291C;
+     }
+     
+     td{
+         color: #FFC72C;
+     }
+     
+     .red {
+         color: #DA291C;
+     }
+     
+     .pink {
+         color: pink;
+     }
+     
+     .background:hover {
+     background-color: rgb(199, 206, 214);
+     }
+     
+     td:hover {
+     background-color: rgb(199, 206, 214);
+     }
+     
+     h1:hover {
+         background-color: rgb(199, 206, 214);
+     }
+     
+     p {
+         color: red;
+     }
+ 
+     #style {
+         font-size: 64px;
+     color: aliceblue;
+     }
+     a{
+     text-decoration: none;
+     }
+     a:hover {
+     color: purple;
+     text-decoration: underline;
+     }
+     /* Allows you to display list items horizontally instead of vertically */
+    #center{
+     color:aliceblue;
+     display: inline-block;
+    }
+    input {
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 5px;
+     text-align: center;
+     border: 4px solid #DA291C;
+     background-color: #FFC72C;
+     color: aliceblue;
+    }
+ 
+    
+ 
+ 
+   /* Transitions allow you to make an animation */
+     img {
+     width: 150px;
+     transition: width 0.5s;
+     } 
+     img:hover {
+         width: 200px;
+    }
+ 
+    li {
+    font-size: 20px;
+    transition: color 2s;
+    }
+ 
+    li:hover {
+     color: rgb(190, 25, 190)
+    }
