@@ -1,24 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <title>MacDonalds</title>
+    <script defer src="script.js"></script>
 </head>
-
 <body>
-    <div> <img src="img/mcdonalds-m-symbol-logo-vector-701751694789966xvpmadzkzn-removebg-preview.png" alt="mcdonalds.logo"> 
-        <p><span id="style">I'm lovin' it ®</span></p>
-        <h1><span class="yellow">M</span><span>a</span><span class="yellow">c</span><span>D</span><span class="yellow">o</span><span>n</span><span class="yellow">a</span><span>l</span><span  class="yellow">d</span><span>s</span><span class="yellow">™</span> <span>M</span><span class="yellow">e</span><span class="yellow">n</span >u</h1>   
-        </div>
-<div>
-    <table>
-    <tr id="height"><td class="text">Foods</td> <td class="text2">Images</td> <td class="text">Prices</td></tr>                                 
-    <tr><td>Borgir</td> <td class="background"><img  src="img/R.png" alt="borgir"></td> <td class="red">$5.99</td></tr>
-    <tr><td class="red">Bloxy Cola</td> <td class="background"><img  src="img/OIP-removebg-preview.png" alt="bloxy cola"></td> <td>$1.99</td></tr>
-    <tr><td>Pizzetta</td> <td class="background"><img  src="img/Png.png" alt="pizzaetta"></td> <td class="red">$7.99</td></tr>
-    <tr><td class="pink"> Gelato</span></td> <td><img src="img/noFilter.png" alt=""></td></td> <td class="pink">$2.99</td></tr>
-</table>
-<p>Not Happy With Our Service? Contact us by leaving your email down below: <br>
+    <h1>Trip Cost Estimator</h1>
+    <hr>
     <br>
-<input type="text" placeholder="user@gmail.com"></p>
-<p>Consider giving us a review on <a href="https://www.google.com/search?sa=X&sca_esv=ea31d54ec92a42d9&tbm=lcl&q=mcdonald%27s&rflfq=1&num=10&ved=2ahUKEwjw3e7zzYqMAxWJCjQIHZU8H-UQjGp6BAg9EAE&cshid=1741990957931089&biw=1920&bih=958&dpr=1&safe=active&ssui=on#lkt=LocalPoiReviews&rlfi=hd:;si:9638231255272288014,l,CgptY2RvbmFsZCdzIgOIAQFIj8P0_aOqgIAIWhYQABgAIgptY2RvbmFsZCdzKgQIAhAAkgEUZmFzdF9mb29kX3Jlc3RhdXJhbnSqAUIQASoOIgptY2RvbmFsZCdzKAAyHhABIhogkCLuxcAwSYOdmRE7TT_O3KjgOIUmWtT6kDIOEAIiCm1jZG9uYWxkJ3M;mv:[[53.636068099999996,-113.3072355],[53.5055038,-113.5585735]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:4" target="_blank">Google Maps!</a></p>
-<ul id="center"><li>Fun Fact: there are more fourty thousand McDonalds around the world!</span></li></ol>
+<span class="style">Destination:</span> <input type="text" id="a"> *text input*
+<br>
+<br>
+<span class="style">Distance:</span> <input type="text" id="b"> <span id="caps">kms</span> *number input*
+<br>
+<br>
+<span class="style">Fuel cost per unit:</span> <input type="text" id="c"> *number input*
+<br>
+<br>
+<span class="style">Expected accommodation cost</span>: <input type="text" id="d"> *number input*
+<br>
+<br>
+<span class="style">Miscellaneous expenses:</span> <input type="text" id="e"> *number input*
+<br>
+<br>
+<button id="button">Calculate</button>
+<hr>
+<p id="p">Your trip to <span id="x">[Destination]</span> will cost approximately $<span id="y">[Total Cost]</span>!</p>
 </body>
+</html>
